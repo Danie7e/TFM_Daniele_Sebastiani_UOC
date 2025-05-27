@@ -4,9 +4,9 @@ El objetivo principal de esta primera etapa es identificar instancias de complej
 Con estas se tiene que realizar una tabla que almacene toda la información relevante.
 
 Primero se identifícan todos los **ID** de las entradas proteica del PDB.
-![Identificar entradas PDB](image.png)
+![Identificar entradas PDB](img/image.png)
 
-![Filtrar por entradas protíca](image-1.png)
+![Filtrar por entradas protíca](img/image-1.png)
 
 Una vez identificado los identificadores ID, se puede empezar a realizar la tabla que tendrá que tener esta información:
 
