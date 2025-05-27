@@ -24,11 +24,11 @@ En el archivo notebook "**Crear_Tabla_PDB.ipynb**" se explica como se obtuvo la 
 Sucesivamente se han descartado los ligandos unídos covalentemente. Se ha utilizado el script del sowftware **PDB-CAT**, desarrollado por el grupo de investigación 
 *URV Cheminformatics*. Este script permite clasificar estructuras proteicas del Protein Data Bank (PDB) en tres categorías: 
 
-    • Apo: proteínas sin ligandos. 
+• Apo: proteínas sin ligandos. 
     
-    • Unidas covalentemente: proteínas con ligandos unidos mediante enlaces covalentes. 
+• Unidas covalentemente: proteínas con ligandos unidos mediante enlaces covalentes. 
     
-    • Unidas no covalentemente: proteínas con ligandos unidos mediante interacciones no covalentes. 
+• Unidas no covalentemente: proteínas con ligandos unidos mediante interacciones no covalentes. 
     
 El script generó un archivo en formato CSV que permitió identificar y eliminar las entradas con ligandos unidos covalentemente. Debido a que el script PDB-CAT trabaja directamente sobre archivos mmCIF (Macromolecular Crystallographic Information File), fue necesario descargar individualmente cada archivo mmCIF del PDB mediante un script que utiliza funciones de Biopython.
 
