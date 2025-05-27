@@ -23,9 +23,13 @@ En el archivo notebook "**Crear_Tabla_PDB.ipynb**" se explica como se obtuvo la 
 
 Sucesivamente se han descartado los ligandos unídos covalentemente. Se ha utilizado el script del sowftware **PDB-CAT**, desarrollado por el grupo de investigación 
 *URV Cheminformatics*. Este script permite clasificar estructuras proteicas del Protein Data Bank (PDB) en tres categorías: 
+
     • Apo: proteínas sin ligandos. 
+    
     • Unidas covalentemente: proteínas con ligandos unidos mediante enlaces covalentes. 
+    
     • Unidas no covalentemente: proteínas con ligandos unidos mediante interacciones no covalentes. 
+    
 El script generó un archivo en formato CSV que permitió identificar y eliminar las entradas con ligandos unidos covalentemente. Debido a que el script PDB-CAT trabaja directamente sobre archivos mmCIF (Macromolecular Crystallographic Information File), fue necesario descargar individualmente cada archivo mmCIF del PDB mediante un script que utiliza funciones de Biopython.
 
 El trabajo con **PDB-CAT** se explica en el notebook "**Ligandos_covalentes.ipynb**". La búsqueda se ha realizado con los archivos divididos en varias carpetas debído al elevado número de archivos.
@@ -34,11 +38,11 @@ En el notebook "**Unir_resultados_PDBCAT.ipynb**" se explica como se han unído 
 
 En el notebook "**Filtros_ligandos.ipynb**" se explica como se aplican los siguientes filtros al dataframe:
 
-    • Eliminar unos ligandos: MAN, GAL, BGC, BMA, NAG, A2G. (azucares simples)
+• Eliminar unos ligandos: MAN, GAL, BGC, BMA, NAG, A2G. (azucares simples)
 
-    • Descartar entrada sin Uniprot_id
+• Descartar entrada sin Uniprot_id
 
-    • Descartar entrada sin código InChI/Ligando UNL
+• Descartar entrada sin código InChI/Ligando UNL
 
 Los ligandos que no tienen código InChI corresponden a los llamados “UNL”, es decir, Unknown.
 
