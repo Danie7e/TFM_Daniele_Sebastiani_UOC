@@ -1,2 +1,8 @@
 # TFM_Daniele_Sebastiani_UOC
 En este repositorio de GitHub se almacenarán los códigos utilizados a lo largo del desarrollo de mi Trabajo de Fin de Máster (TFM) del Máster en Bioinformática y Bioestadística de la Universidad UOC
+
+Este estudio está enfocado en crear un modelo predictivo para la búsqueda de potenciales sitios de unión alternativos de un ligando en diferentes familias de proteínas. Para esto, se aplicará una aproximación basada en redes neuronales artificiales (ANN) y redes neuronales en grafos (GNN), que utilizan información obtenida a raíz de una búsqueda sobre un set de complejos ligandos proteínas. acerca de los grupos funcionales de la molécula, su estructura tridimensional y el tipo químico y geométrico del complejo con la proteína.
+
+Se inició el proyecto con el estudio exhaustivo de más de 200 mil estructuras del Protein Data Bank (PDB). Se sometió a este grandes volúmenes de datos a un filtrado gradual y cuidadoso hasta llegar a una colección más pequeña y bien definida. Esta se destaca por la precisión en la descripción geométrica y química del ligando, sus sitios de unión correspondientes en las proteínas y sus interacciones particulares involucradas en cada complejo.
+
+Por último, el conocimiento conseguido se usará como fundamento para el entrenamiento de una modelo predictivo de clasificación compuesta por ANN y GNN. El modelo así formado podrá calcular con precisión potenciales lugares alternativos de unión para un mismo ligando en diferentes proteínas, teniendo en cuenta tanto propiedades químicas como características geométricas del espacio del sistema ligando-proteína.
