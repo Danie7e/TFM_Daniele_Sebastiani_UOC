@@ -115,4 +115,21 @@ Se obtuvo un dataframe con:
 
 El proceso se describe en el notebook "**unir_dataframes.ipynb**".
 
+Con el dataframe completo se pudo realizar la separación entre train y test set. Se ha decidido la siguiente estrategía de separación.
+El train estará formado por:
 
+- todas las instancias de los ligandos con una sola conformación
+- 70% de las instancias de los ligandos con conformación variable
+- 70% de las instancias de los ligandos con solo conformación disimilar
+
+El test estará formado por:
+
+- 30% de las instancias de los ligandos con conformación variable
+- 30% de las instancias de los ligandos con solo conformación disimilar
+
+Así, evitando el solapamiento, deberíamos evitar el problema de tener elementos similares entre train y test ya que separamos todas las instancias de dado un ligando y, para realizar la predicción, el modelo tiene que aprender a generalizar. 
+
+El proceso se describe en el notebook "**dividir_train_test.ipynb**".
+
+Finalmente se puede armar y entrenar la red neuronal (*ANN*).
+Procesos y análisis están en el notebook "**Red_Neuronal_Artificial.ipynb**".
