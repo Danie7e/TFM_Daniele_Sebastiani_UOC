@@ -52,7 +52,7 @@ En el notebook "**oligosacaridos_ramificados.ipynb**" se explica como se detecta
 Luego, se descartarno las entradas grandes, con un tamaño > a 3 Mb. Eso se explica en el notebook "**Descartar_archivos_grandes.ipynb**".
 
 Tras unir los archivos de output generados, se identificaron los ligandos unidos a más de una familia de proteínas.
-Este análisis se explica en el notebook "**Grupos_ligandos_familias.ipynb****".
+Este análisis se explica en el notebook "**Grupos_ligandos_familias.ipynb**".
 
 El dataframe final tiene:
 
