@@ -51,6 +51,8 @@ En el notebook "**oligosacaridos_ramificados.ipynb**" se explica como se detecta
 
 Luego, se descartarno las entradas grandes, con un tamaño > a 3 Mb. Eso se explica en el notebook "**Descartar_archivos_grandes.ipynb**".
 
+Sucesivamente, se identificó la fracción enterrada accesible al solvente de cada ligando presente en las entradas y se mantuvo solamente los con una fracción enterrada mayor a 20%. De estos, se guardaron las coordenadas específicas (modelo, cadena, residuo). El proceso se explica en el notebook "**Ligandos_enterrados**".
+
 Tras unir los archivos de output generados, se identificaron los ligandos unidos a más de una familia de proteínas.
 Este análisis se explica en el notebook "**Grupos_ligandos_familias.ipynb**".
 
